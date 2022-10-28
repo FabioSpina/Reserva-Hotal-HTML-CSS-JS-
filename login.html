@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Hotel</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-3 col-s-3 menu">
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><button> <a href="reserva.html"> Reserva</a></button></li>
+        <li><a href="Pesquisa.html">Pesquisar</a></li>
+
+
+        <li><a href="Checkout.html">Check out</a></li>
+        <li><a href="nf.html">NF</a></li>
+
+      </ul>
+    </div>
+
+    <div class="col-6 col-s-9">
+      <form action="/login" method="get">
+        <fieldset>
+          <legend>Login</legend>
+          <p>
+            <label for="username">Funcionário</label>
+            <input type="text" id="username" name="username" placeholder="Nome do funcionário">
+          </p>
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" required>
+          </p>
+          <p>
+
+          <p>
+            <label for="select">Tipo do funcionário</label>
+            <input list="tipofuncionario">
+            <datalist name="tipofuncionario" id="tipofuncionario">
+              <option value="Atendente">
+              <option value="Gerente">
+              <option value="Lavanderia">
+              <option value="Cozinha">
+              <option value="Limpeza">
+            </datalist>
+          <p>
+            <button> <a href=""> Efetuar Login </a></button>
+          </p>
+          </p>
+          </p>
+      </form>
+
+    </div>
+
+    <!--
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Chania is a city on the island of Crete.</p>
+      <h2>Where?</h2>
+      <p>Crete is a Greek island in the Mediterranean Sea.</p>
+      <h2>How?</h2>
+      <p>You can reach Chania airport from all over Europe.</p>
+    </div>
+     </div>
+    -->
+
+
+  </div>
+
+  <div class="footer">
+    <p>Venha viver essa experiência conosco. By Fabio Spina</p>
+  </div>
+
+</body>
+
+</html>
